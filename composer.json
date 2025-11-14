@@ -8,8 +8,12 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
+<<<<<<< HEAD
         "laravel/tinker": "^2.10.1",
         "stripe/stripe-php": "^18.2"
+=======
+        "laravel/tinker": "^2.10.1"
+>>>>>>> 37faf45a6dc4c6822fdca6ca94e28bce5900632e
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
