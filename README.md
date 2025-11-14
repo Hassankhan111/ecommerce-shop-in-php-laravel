@@ -149,7 +149,7 @@ git push -u origin main
 
 **Mohammad Imran**  
 Laravel Developer | PHP | MySQL  
-GitHub: *([Add your link](https://github.com/Hassankhan111))*  
+GitHub: *([github.com/Hassankhan111))*  
 Email: *(armanimran240@gmail.com)*
 Phone: *(03045975020)*
 
