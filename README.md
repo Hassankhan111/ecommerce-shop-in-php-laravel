@@ -112,28 +112,11 @@ php artisan serve
 
 | Field | Value |
 |--------|---------|
-| **Email** | admin@example.com |
-| **Password** | password |
+| **username** | admin |
+| **Password** | admin |
 
 ---
 
-# 🖼️ Screenshots  
-(Add your images in `screenshots/` folder)
-
-### 🏠 Home Page  
-![Homepage](screenshots/homepage.png)
-
-### 🛒 Product Listing  
-![Products](screenshots/products.png)
-
-### 📦 Admin Dashboard  
-![Dashboard](screenshots/dashboard.png)
-
-### 🛍️ Cart Page  
-![Cart](screenshots/cart.png)
-
-### 💳 Checkout  
-![Checkout](screenshots/checkout.png)
 
 ---
 
@@ -166,8 +149,9 @@ git push -u origin main
 
 **Mohammad Imran**  
 Laravel Developer | PHP | MySQL  
-GitHub: *(Add your link)*  
-Email: *(Add your email)*
+GitHub: *([Add your link](https://github.com/Hassankhan111))*  
+Email: *(armanimran240@gmail.com)*
+Phone: *(03045975020)*
 
 ---
 
