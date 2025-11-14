@@ -20,18 +20,13 @@
 
 
                           <!-- Jquery JS-->
-    <script src="{{ asset('assets/js1/vanilla-utils.js')}}"></script>
      <!-- Bootstrap JS-->
     <script src="{{ asset('assets/vendor/bootstrap-5.3.8.bundle.min.js')}}"></script>
-    <!-- Vendor JS       -->
-    <script src="{{ asset('assets/vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/chartjs/chart.umd.js-4.5.0.min.js')}}"></script>
-
+    <script src="{{ asset('assets/js/jquery-3.3.1.min.js')}}"></script>
     <!-- Main JS-->
     <script src="{{ asset('assets/js1/bootstrap5-init.js')}}"></script>
-    <script src="{{ asset('assets/js1/main-vanilla.js')}}"></script>
-    <script src="{{ asset('assets/js1/swiper-bundle-11.2.10.min.js')}}"></script>
-    <script src="{{ asset('assets/js1/aos.js')}}"></script>
-    <script src="{{ asset('assets/js1/modern-plugins.js')}}"></script>
+    
+    <!-- Custom JS-->
+    <script src="{{ asset('assets/backend/main.js')}}"></script>
 
 </body>

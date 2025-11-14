@@ -184,7 +184,46 @@ strong {
 /*-----------------------------------------------------*/
 /*                   ELEMENTS                          */
 /*-----------------------------------------------------*/
-/* ----- Title ----- */
+
+
+/*header manue style*/
+
+.sidebar-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 12px; /* spacing between links */
+    list-style: none;
+}
+
+.sidebar-menu a {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu a:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+    transform: translateX(3px);
+}
+
+.sidebar-menu li.active a {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgba(0, 123, 255, 0.2);
+}
+
+/* ----- end header manue style ----- */
 .title--sbold {
     font-weight: 600;
 }

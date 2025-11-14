@@ -1,5 +1,6 @@
 @include('layout.backend.header')
 
-@yield('main-content')
-
+ <div class="page-container">
+  @yield('main-content')
+</div>
 @include('layout.backend.footer')

@@ -4,14 +4,23 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Admin extends Model
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+
+class Admin extends Authenticatable
 {
+    use Notifiable;
+
     protected $table = 'admins';
     protected $primaryKey = 'adminId';
 
-   
+    
 
-    protected $guarded = [];
+    protected $fillable = [
+        'fullname', 'username', 'email', 'phone', 'address', 'password','admin_role'
+    ];
 
-    public $timestamps = false;
+    protected $hidden = ['password', 'remember_token'];
 }
+
+

@@ -30,7 +30,7 @@ return new class extends Migration {
                 ->onDelete('set null');
 
             $table->foreign('product_brand')
-                ->references('cat_id')->on('brands')
+                ->references('brand_id')->on('brands')
                 ->onDelete('set null');
 
             $table->string('product_title')->nullable();

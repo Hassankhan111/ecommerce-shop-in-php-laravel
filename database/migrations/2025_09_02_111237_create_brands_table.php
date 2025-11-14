@@ -14,7 +14,11 @@ return new class extends Migration
         Schema::create('brands', function (Blueprint $table) {
               $table->id('brand_id');
             $table->string('brand_name')->nullable();
-            $table->string('cat_name')->nullable();
+            $table->unsignedBigInteger('cat_name')->nullable();
+
+              $table->foreign('cat_name')
+                ->references('cat_id')->on('categories')
+                ->onDelete('set null'); 
             $table->timestamps();
         });
     }

@@ -5,7 +5,6 @@
 <html lang="en">
 
 <head>
-    <title>@stack('title', 'Ecommerce shop')</title>
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 </head>
@@ -35,7 +34,7 @@
                     <h3 class="text-center fw-bold mt-2">ONLINE SHOP</h3>
                     <div class="m-sm-4">
                         <!-- start form -->
-                        <form method="post" action="{{ route('admin.show') }}">
+                        <form method="post" action="{{ route('admin.match') }}">
                             @csrf
                             <div class="mb-sm-3 text-center row">
                                 <label for="inputPassword" class="col-sm-2 fw-bold col-form-label">Username</label>
@@ -58,7 +57,7 @@
                                     style="width:250px;  margin-left: 140px;">Sign in</button>
                             </div>
                         </form>
-                        <p> Don't Have an Account <a href="{{ route('signup') }}" class="text-danger text-decoration-none"> Register</p></a>
+                        <p> Don't Have an Account <a href="{{ route('admin.create')}}" class="text-danger text-decoration-none"> Register</p></a>
 
                     </div>
                 </div>

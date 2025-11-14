@@ -3520,3 +3520,118 @@ ol {
 		font-size: 24px;
 	}
 }
+
+/*user registration form */
+
+#register_sign_up{
+        width: auto;
+		margin-left: 50%;
+		width:80%;
+		padding: 10px;
+		background-color:whitesmoke;
+		margin-bottom: 15px;
+}
+    .signup_form {
+        background: 1deg, #c69292 49%, #bc8989 50%;
+        border: 2px solid #e1e5ee;
+        transition: all 0.3s ease-in-out;
+		
+    }
+
+    .signup_form:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 25px rgba(236, 68, 68, 0.1);
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #e4e4e4;
+        padding: 12px 15px;
+        font-size: 15px;
+        transition: all 0.2s ease;
+    }
+
+    .form-control:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+    }
+
+    .btn {
+        border-radius: 10px;
+        background-color: #0d6efd;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #084298;
+        transform: scale(1.03);
+    }
+
+    h2 {
+        letter-spacing: 1px;
+		font-weight: bold;
+		padding: 10px;
+    }
+.btn-close{
+	background-color: #D62D2D;
+	 border-radius: 5px;
+        border: 1px solid #e4e4e4;
+        padding: 7px;
+        font-size: 15px;
+        transition: all 0.2s ease;
+}
+
+.alert{
+	width:280px;
+	height: 35px;
+	padding: 5px;
+	text-align: center;
+}
+
+.cheackoutbtn{
+	background-color: #04AA6D;
+	color: white;
+	margin:8px;
+}
+
+.brandli a:hover{
+	color:black;
+}
+
+.dropdown-menu li{
+	color: black;
+}
+
+.dropdown-item li a:hover{
+	color:black;
+}
+
+
+
+
+
+  .hover-link {
+    transition: all 0.3s ease;
+    border-radius: 6px;
+  }
+
+  .hover-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    color:black !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #0d6efd;
+    color: #fff !important;
+    transition: all 0.3s ease;
+  }
+/*product-tab*/
+.hover-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.hover-link:hover {
+  color: #0d6efd;
+  text-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}

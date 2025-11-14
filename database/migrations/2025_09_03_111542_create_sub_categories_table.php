@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-      Schema::create('sub-categories', function (Blueprint $table) {
+      Schema::create('sub_categories', function (Blueprint $table) {
             $table->id('sub_cat_id');
             $table->string('sub_cat_title')->nullable();
 
@@ -19,15 +19,15 @@ return new class extends Migration
             
             $table->string('show_in_footer')->nullable();
             // Foreign keys
-            $table->unsignedBigInteger('cat_parent')->nullable();
-           $table->unsignedBigInteger('cat_product')->nullable();
+            $table->unsignedBigInteger('category');
+           $table->unsignedBigInteger('product');
 
             // Add foreign key constraints
-            $table->foreign('cat_parent')
+            $table->foreign('category')
                 ->references('cat_id')->on('categories')
                 ->onDelete('set null');  // if category deleted, set null
 
-           $table->foreign('cat_product')
+           $table->foreign('product')
                 ->references('product_id')->on('produts')
                 ->onDelete('set null');
             $table->timestamps();
