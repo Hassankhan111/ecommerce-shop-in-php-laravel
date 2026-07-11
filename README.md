@@ -105,15 +105,14 @@ php artisan storage:link
 ```bash
 php artisan serve
 ```
+http://127.0.0.1:8000/admin
 
+register is a admin
 ---
 
 # 🔐 Default Admin Login
 
-| Field | Value |
-|--------|---------|
-| **username** | admin |
-| **Password** | admin |
+
 
 ---
 
