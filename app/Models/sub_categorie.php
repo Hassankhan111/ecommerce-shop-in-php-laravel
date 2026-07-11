@@ -13,7 +13,7 @@ class sub_categorie extends Model
 
     protected $fillable = [
         'sub_cat_title',
-        'cat_parent',
+        'category',
         'cat_product',
         'show_in_header',
         'show_in_footer',
@@ -21,7 +21,7 @@ class sub_categorie extends Model
 
     public function category()
     {
-        return $this->belongsTo(Category::class,'cat_parent','cat_id');
+        return $this->belongsTo(Category::class,'category','cat_id');
     }
 
     public function product()

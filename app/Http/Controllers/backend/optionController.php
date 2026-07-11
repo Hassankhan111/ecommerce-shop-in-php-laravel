@@ -57,5 +57,7 @@ class optionController{
 
     }
 
+    /* add setting */
+    
 
 }

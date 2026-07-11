@@ -40,8 +40,21 @@
                     </div>
 
                 @empty
-                    <div class="alert alert-danger" role="alert">
-                        <p>No products found for this brand.</p>
+                      <div class="col-lg-3 col-md-4 col-sm-3 mix vegetables fastfood">
+                        <div class="featured__item">
+                           <div class="product__item__pic set-bg"
+                                data-setbg="{{ asset('storage/products/camra.png') }}">
+                                <ul class="featured__item__pic__hover">
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="featured__item__text">
+                                <h6><a href="#"></a>camra </h6>
+                                <h5>Rs:444</h5>
+                            </div>
+                        </div>
                     </div>
 
                 @endforelse
@@ -72,7 +85,7 @@
                         @if (file_exists(storage_path('app/public/' . $prodct->product_img)))
                           <div class="featured__item__pic set-bg"><img src="{{ asset('storage/' . $prodct->product_img) }}" alt="{{ $prodct->product_title }}">
                         @else
-                          <img src="{{ asset('images/no-image.png') }}" alt="No image">
+                          <img src="{{ asset('storage/products/camra.png') }}" alt="No image">
                         @endif
                          <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>

@@ -41,7 +41,7 @@ class SubCategorysController
 
         $Category = sub_categorie::create([
             'sub_cat_title' => $validatedData['subCategory_title'],
-             'cat_parent' => $validatedData['category'] ?? null,
+             'category' => $validatedData['category'] ?? null,
         ]);
         
         if($Category){
